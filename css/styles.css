@@ -378,7 +378,8 @@ button {
 }
 .social-list {
   display: flex;
-  justify-content: space-around;
+  margin-left: 12px;
+  margin-right: 12px;
   gap: 24px;
 }
 .social-link {
@@ -487,7 +488,6 @@ button {
   gap: 16px;
 }
 .social-item-footer {
-  margin-right: 16px;
   width: 40px;
   height: 40px;
 }
