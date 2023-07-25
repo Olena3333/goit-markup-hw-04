@@ -430,18 +430,11 @@ button {
 }
 .lists-customers {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: nowrap;
   gap: 24px;
-  padding-left: 156px;
-  padding-right: 156px;
 }
 .customer-list {
   width: calc((100% - 120px) / 6);
-}
-.customer-list {
   height: 88px;
-
   border-radius: 4px;
 }
 .customer-item {
@@ -554,7 +547,8 @@ button {
   margin-bottom: 72px;
 }
 
-.portfolio-button:hover {
+.portfolio-button:hover,
+.portfolio-button:focus {
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
