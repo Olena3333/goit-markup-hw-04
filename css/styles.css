@@ -151,7 +151,7 @@ address {
   bottom: -1px;
   width: 100%;
   height: 4px;
-  background-color: #404bbf
+  background-color: #404bbf;
   border-radius: 2px;
 }
 
@@ -417,10 +417,11 @@ address {
   left: 0;
   height: 100%;
   width: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--background-color);
   background-color: var(--accent-color);
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
-  color: #f4f4fd;
   padding: 40px 32px;
   transform: translateY(100%);
   transition: transform var(--timing-duration) var(--timing-function);
@@ -433,11 +434,11 @@ address {
 
 .gallery-link:hover,
 .gallery-link:focus {
-  box-shadow: 0px 2px 1px rgba(46,47,66,0.08),
-              0px 1px 1px rgba(46,47,66,0.16),
-              0px 1px 6px rgba(46,47,66,0.08);
+  box-shadow:
+    0px 1px 6px rgba(46,47,66,0.08),
+    0px 1px 1px rgba(46,47,66,0.16),
+    0px 2px 1px rgba(46,47,66,0.08);
 }
-
 /* Footer */
 
 .footer {
@@ -502,7 +503,7 @@ address {
   border-radius: 50%;
   width: 100%;
   height: 100%;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link-footer:hover,
