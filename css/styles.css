@@ -433,8 +433,8 @@ address {
   display: block;
 }
 
-.gallery-link:hover,
-.gallery-link:focus {
+.portfolio-list-item:hover .gallery-link,
+.portfolio-list-item:focus-within .gallery-link {
   box-shadow:
     0px 1px 6px rgba(46,47,66,0.08),
     0px 1px 1px rgba(46,47,66,0.16),
