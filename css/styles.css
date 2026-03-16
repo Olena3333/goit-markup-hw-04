@@ -406,7 +406,7 @@ address {
 }
 
 /* контейнер картинки с overlay */
-.portfolio-overlay-wrapper {
+.somb {
   position: relative;
   overflow: hidden;
 }
