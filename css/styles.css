@@ -387,8 +387,7 @@ address {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
+  gap: 24px 48px;
 }
 
 .portfolio-list-item {
@@ -431,9 +430,9 @@ address {
 }
 
 /* появление overlay при hover */
-.portfolio-list-item:hover .overlay,
-.portfolio-list-item:focus-within .overlay {
+.portfolio-list-item:hover .overlay {
   transform: translateY(0%);
+  z-index: 2;
 }
 
 /* ссылка на картинку */
