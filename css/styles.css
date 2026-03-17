@@ -431,9 +431,6 @@ address {
   transform: translateY(0%);
 }
 
-.gallery-link {
-  display: block;
-}
 
 .portfolio-content-wrapper {
   padding: 32px 16px;
